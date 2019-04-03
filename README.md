@@ -1,5 +1,10 @@
 # pos2pickandplace
 
+TODO: fix the arg command line input. For now, just edit the file names in the file
+
+(python 2.7)
+Usage: python pos2pickandplace.py -p <kicadposfile> -o <outputfile>
+
 notes: kicad's coordinate system counts positively in the Y axis toward the
 bottom of the screen, but when exporting a .POS file, the Y coordinates are
 negative for some reason, as if someone multiplied the kicad Y coordinate by -1
